@@ -14,7 +14,7 @@ Implementation is extremely easy. Please keep in mind before hand, that this cur
 The purpose of this library is to call system-calls (kernel-level) directly to prevent user-mode hooks and monitoring. This library has a small level of compile-time 'obfuscation' that produces, what looks like, a bunch of gibberish.
 
 ## Syscall Diagram
-![This is an image](https://i.imgur.com/PaDvDqv.png)
+![This is an image](https://i.imgur.com/5ivbFTa.png)
 
 ## Usage
 ```cpp

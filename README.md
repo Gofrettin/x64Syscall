@@ -6,9 +6,9 @@ Execute direct system-calls for kernel functions on Windows in x64.
 
 ## Implementation (MSVC)
 Implementation is extremely easy. Please keep in mind before hand, that this current test was conducted on MSCV on Visual Studio 2019.
-- 1. Create a new file in your project named 'syscall.asm' or drag and drop the one available here.
-- 2. Add the the x64Syscall.h header file from here to your project.
-- 3. Select your project > Build Dependencies > Build Customizations > Check 'masm(.targets, .props) > Ok
+- Create a new file in your project named 'syscall.asm' or drag and drop the one available here.
+- Add the the x64Syscall.h header file from here to your project.
+- Select your project > Build Dependencies > Build Customizations > Check 'masm(.targets, .props) > Ok
  
 ## Purpose
 The purpose of this library is to call system-calls (kernel-level) directly to prevent user-mode hooks and monitoring. This library has a small level of compile-time 'obfuscation' that produces, what looks like, a bunch of gibberish.

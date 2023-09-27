@@ -21,11 +21,6 @@ The purpose of this library is to call system-calls (kernel-level) directly to p
 int main()
 {
     LoadLibraryA("win32u.dll");
-    LoadLibraryA("ntdll.dll");
-    LoadLibraryA("user32.dll");
-
-    int testVar = 100;
-    int readData{};
 
     while (true)
     {

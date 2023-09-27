@@ -5,7 +5,7 @@ Execute direct system-calls for kernel functions on Windows in x64.
 - C++20 or above, Legacy C Language Standard.
 
 ## Implementation (MSVC)
-Implementation is extremely easy. Please keep in mind before hand, that this current test was conducted on MSCV on Visual Studio 2019.
+Implementation is extremely easy. Please keep in mind before hand, that this current test was conducted on MSVC on Visual Studio 2019.
 - Create a new file in your project named 'syscall.asm' or drag and drop the one available here.
 - Add the the x64Syscall.h header file from here to your project.
 - Select your project > Build Dependencies > Build Customizations > Check 'masm(.targets, .props) > Ok

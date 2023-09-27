@@ -13,8 +13,8 @@ Implementation is extremely easy. Please keep in mind before hand, that this cur
 ## Purpose
 The purpose of this library is to call system-calls (kernel-level) directly to prevent user-mode hooks and monitoring. This library has a small level of compile-time 'obfuscation' that produces, what looks like, a bunch of gibberish.
 
-## Syscall Diagram
 ![This is an image](https://i.imgur.com/RvkIrKj.png)
+As you can deduce from the provided diagram, the defender cannot monitor our system-call which bypasses all user-mode callbacks before the kernel-function is called.
 
 ## Usage
 ```cpp

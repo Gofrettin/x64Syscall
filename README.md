@@ -1,2 +1,2 @@
 # x64Syscall
-Execute direct system-calls for Nt / Zw functions on Windows.
+Execute direct system-calls for kernel functions on Windows in x64.
